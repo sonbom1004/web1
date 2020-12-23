@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>레이아웃_2</title>
+    <style>
+          /*reset*/
+        *{
+            margin: 0;  /*바깥여백*/
+            padding: 0;  /*안쪽여백*/
+        }
+        
+        /*전체 레이아웃*/
+        #wrap{
+            margin: 0 auto; /*전체 가운데 정렬*/
+            width:950px;  /*넓이*/
+            height: 700px;  /*높이*/
+            background: #ccc;  /*배경컬러*/
+        }
+        #header{
+            width:950px;
+            height: 300px;
+            background: #f968a6;
+            font-size: 35px;  /*글자크기 조절*/
+            color: #ffffff;  /*글자컬러 조절*/
+            text-align: center; /*가로 글자정렬 조절(left/right/center)*/
+            line-height: 300px; /*세로 글자정렬 조절 (한줄일때만)*/
+        }
+        
+        #contents{
+            width:100%;
+            height:300px;
+            background: #fbc7dd;
+            font-size: 35px;
+            color: #ffffff;
+            text-align: center; /*가로 글자정렬 조절(left/right/center)*/
+            line-height: 300px; /*세로 글자정렬 조절 (한줄일때만)*/
+        }
+        #footer{
+            width:100%;
+            height: 100px;
+            background: #d1acbc;
+            font-size: 35px;
+            color: #ffffff;
+            text-align: center; /*가로 글자정렬 조절(left/right/center)*/
+            line-height: 100px; /*세로 글자정렬 조절 (한줄일때만)*/
+        }
+    </style>
+</head>
+<body>
+   <div id="wrap">
+       <div id="header">header</div><!--//header-->
+       <div id="contents">contents</div><!--//contents-->
+       <div id="footer">footer</div><!--//footer-->
+   </div><!--//wrap-->
+</body>
+</html>
